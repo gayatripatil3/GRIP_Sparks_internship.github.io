@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="homepage.css">
+   <title>Banking System</title>
+</head>
+<body>
+    <div class="container1">
+        <h1>ONLINE BANKING SYSTEM</h1>
+        <nav class="navbar1">
+            <ul>
+                <div class="list">
+                  <div class="list1" id="home"> <li><b>HOME</b> </li></div> 
+                   <li class="cont" id="cont1" onclick="toggleShow()"><img src="img3.png" alt=""></li>
+                    <li class="cont" id="cont2" onclick="toggleShow1()"><a href="transaction_page.html"><img src="img2.png" alt=""></a></li>
+                </div>
+            </ul>
+        </nav>
+        <img src="img1.png" alt="image">
+    </div> 
+    <div class="formm">
+    <form action="">
+        <fieldset>
+            <legend> Sender's Name  </legend>
+            <input type="text" class="form-control" name="" id="item">
+            <legend>Reciepent Name</legend>
+                <input type="text" class="form-control" name="" id="item1">
+                <legend> Amount</legend>
+            <input type="text" class="form-control" name="" id="quantity">
+            <legend>Date</legend>
+            <input type="text" class="form-control" name="" id="item2">
+        </fieldset>
+        <div class="submit">
+        <input type="submit" value="Transfer" onclick="return fillTable();"/>
+    </div>
+        </form>
+    <hr>
+    <hr>
+    <h4> Transaction Database</h4>
+   <table id="tab0">
+    <tr><th>Sender's Name</th><th>Reciepent Name</th> <th>Amount</th> <th>Status</th> </tr>
+   </table>
+    <table class="table table-bordered table-hover" id="tab">
+    </table>
+</div>
+</div>
+<div class="para1">
+    SEE YOUR TRANSACTIONS.
+</div> 
+<div class="popup" id="popup">
+    <img src="img5.png.png" alt="">
+    <p>Your payment has successfully done.</p>
+    <button type="button" class="bot1" id="bot11" onclick="closepopup()"><b> OK</b></button>
+</div>
+    <script>
+         let popup=document.getElementById("popup")
+        function fillTable() {
+    var table = document.getElementById("tab");
+  var row = table.insertRow(0);
+  var cell1 = row.insertCell(0);
+  var cell2 = row.insertCell(1);
+  var cell3 = row.insertCell(2);
+ var cell4 = row.insertCell(3);
+  cell1.innerHTML = document.getElementById("item").value;
+  cell2.innerHTML = document.getElementById("item1").value;
+  cell3.innerHTML = document.getElementById("quantity").value;
+  cell4.innerHTML = document.getElementById("item4").value;
+  return false;
+  }
+  function openpopup() {
+            popup.classlist.add("open-popup");   
+        }
+
+        function closepopup() {
+            popup.classlist.remove("open-popup");   
+        }
+
+</script>
+</body>
+</html>

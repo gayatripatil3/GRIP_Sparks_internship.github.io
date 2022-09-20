@@ -1,0 +1,1 @@
+SELECT * FROM internship_demo_database.db_internship;

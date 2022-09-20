@@ -1,0 +1,190 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+.container1{
+    background-color: rgb(195, 56, 205);
+    width:100vw;
+    height:350vh;
+    margin:0px;
+    padding:0px;
+    height:100vh;
+}
+img{
+    margin:0px 0px 0px 50px;
+    width:600px;
+    border-radius: 20px;
+    height:400px;
+    box-shadow: 3px 3px rgb(12, 11, 11);
+}
+h1{
+    color:white;
+    padding:50px 0px 0px 50px;
+    font-size: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ul li{
+    color:white;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+ul .list{
+display:flex;
+float :right;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.list{
+position:absolute;
+top:20px;
+right:50px;
+}
+.list1{
+    background-color: red;
+    margin:0px 0px 0px 25px;
+    height:40px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 20px;
+    border: 3px solid  white;
+}
+#home{
+    width:70px;
+} 
+#customer{
+    width:200px;
+}
+#trans{
+    width:200px;
+}
+.para1{
+    position: absolute;
+    top:60px;
+    left:700px;
+    right:50px;
+    color:rgb(64, 206, 238);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px rgb(14, 13, 13);
+    width:600px;
+    font-size:50px;
+}
+.paragraph-styling {
+    margin: 0;
+    cursor: pointer;
+    font-size: 25px;
+    color: rgb(18, 17, 17);
+    border:2px solid rgb(194, 42, 194);
+    box-shadow: 1px 1px;
+    margin:2px 0px 6px 30px;
+    width:230px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.paragraph1-styling {
+    margin: 0;
+    cursor: pointer;
+    font-size: 25px;
+    color: rgb(18, 17, 17);
+    border:2px solid rgb(194, 42, 194);
+    box-shadow: 1px 1px;
+    margin:2px 0px 6px 30px;
+    width:230px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+form{
+    position:absolute;
+    top:285px;
+    right:286px;
+    width:450px;
+    height:auto;
+}
+#tab0 tr >*+*{
+    padding-left:340px;
+}
+/* table{
+    visibility: hidden;
+} */
+/* .formm{
+    visibility: hidden;
+} */
+.btn-success{
+    margin-top:10px;
+}
+.submit input{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(35, 165, 56);
+    width:80px;
+    height:50px;
+    margin-top:10px;
+    color: white;
+    font-size:17px;
+}
+.submit{
+    width:80px;
+}
+.list img{
+    width:100px;
+    height:80px;
+}
+img:hover {
+    background-color: aqua;
+    cursor: pointer;
+}
+#popup{
+    position:absolute;
+    top:180px;
+    /* border:2px solid rgb(165, 59, 59); */
+    width:350px;
+    height:350px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.5)
+}
+.popup{
+    background-color: white;
+    position: absolute;
+    left:590px;
+    border-radius: 20px;
+    visibility: hidden;
+    transition: transform 0.4s, top 0,4s;
+}
+.popup img{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    border: none;
+    box-shadow: none;
+    left: 91px;
+    top: 20px;
+}
+p{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 160px;
+    text-align: center;
+}
+#popup button{
+    border: none;
+    background-color: rgb(29, 202, 41);
+    font-size: 20px;
+    color: rgb(8, 8, 8);
+    position: absolute;
+    border-radius: 40px;
+    left: 114px;
+    bottom: 19px;
+    width: 130px;
+    height: 50px
+}
+.open-popup{
+    visibility: visible;
+}
+.Info{
+    position: absolute;
+    top:230px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    right:100px;
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 229, 255);
+}
